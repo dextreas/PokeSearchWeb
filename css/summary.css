@@ -1,0 +1,121 @@
+.summary-box
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.information-bar
+{
+    background-color: rgba(75, 205, 235, 0.5);
+    height: 27rem;
+    width: 30rem;
+    border-radius: 1rem;
+}
+.info-name
+{
+    background-color: rgba(60, 160, 241, 0.5);
+    margin: 1rem 1rem 0 1rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.name-style
+{
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+
+.period
+{
+    font-weight: 900;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.blue-background
+{
+    background-color: rgba(60, 160, 241, 0.5);
+    margin: 1rem 1rem 0 1rem;
+    padding-bottom: 0.25rem;
+    padding-top: 0.5rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.white-background
+{
+    background-color: rgb(255, 255, 255);
+    margin: 0rem 0.5rem 0.25rem 0.5rem;
+    border-radius: 1rem;
+    padding-bottom: 0.5rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.water-type-box
+{
+    background-color: rgb(80, 147, 255);
+    height: 1.25rem;
+    width:5rem;
+    margin-top: 0.5rem;
+
+}
+
+.center-align
+{
+    margin-top: 0.3rem;
+}
+
+.line-align
+{
+    text-align: center;
+}
+
+.sp-font
+{
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.split-info
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.background-resize
+{
+    width: 20rem;
+}
+
+.male-ratio
+{
+    background-color:  rgb(16, 80, 255);
+    height:1rem;
+    width:8rem;
+    border-radius: 1rem 0 0 1rem;
+    margin-top: 0.45rem;
+}
+
+.female-ratio
+{
+    background-color:  rgb(242, 94, 255);
+    height:1rem;
+    width:4rem;
+    border-radius: 0 1rem 1rem 0;
+    margin-top: 0.45rem;
+}
+
+.sp-text
+{
+    margin-top: 0.15rem;
+    font-size: 10px;
+    color: rgb(255, 255, 255);
+}

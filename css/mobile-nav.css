@@ -1,0 +1,41 @@
+.mobile-nav {
+    position: absolute;
+    top: 10;
+    right: 0;
+    z-index: 99;
+    width: 10rem;
+    background-color: aquamarine;
+    display: none;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    overflow: hidden; /* Prevent content from overflowing */
+}
+
+.mobile-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mobile-link {
+    text-decoration: none;
+}
+
+.mobile-link > a
+{
+    text-decoration: none;
+    display: block; /* Make the anchor element a block-level element */
+    width: 10rem; 
+    padding: 1rem 0rem;
+    overflow-x: hidden;
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+/* 
+.mobile-link > a:hover {
+    color: azure;
+    background-color: blanchedalmond;
+} */

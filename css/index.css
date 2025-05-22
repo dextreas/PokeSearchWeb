@@ -1,0 +1,49 @@
+/*Navbar*/
+header
+{
+  background-color: rgba(75, 205, 235, 0.5);
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.menu-toggle
+{
+  width: 2rem;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  display: inline;
+  list-style: none;
+  padding-right: 1.5rem;
+}
+
+li > a:hover{
+  color:aliceblue;
+
+}
+
+.logo {
+  width: 7rem;
+  margin-left: 2rem;
+}
+
+.summary
+{
+  margin: auto 1rem;
+}
+
+.summary > p
+{
+  font-size: 0.65rem;
+}

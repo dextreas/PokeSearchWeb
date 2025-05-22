@@ -1,0 +1,35 @@
+@media (max-width: 768px) {
+  .summary {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* border: 1px solid red; */
+    margin: auto 10rem;
+  }
+}
+
+@media (max-width: 426px) {
+
+  .menu-img {
+    display: block;
+    width: 2rem;
+  }
+
+  .nav-links
+  {
+    display: none;
+  }
+
+  .summary {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* border: 1px solid red; */
+    margin: auto 5rem;
+  }
+
+  .summary>p {
+    font-size: 1rem;
+  }
+
+}

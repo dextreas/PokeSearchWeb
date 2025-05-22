@@ -1,0 +1,38 @@
+@media (min-width: 768px) {
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .summary {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* border: 1px solid red; */
+    margin: auto 10rem;
+  }
+}
+
+@media (min-width: 425px) {
+
+  header
+  {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .summary {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* border: 1px solid red; */
+    margin: auto 5rem;
+  }
+
+  .summary>p {
+    font-size: 1rem;
+  }
+
+}

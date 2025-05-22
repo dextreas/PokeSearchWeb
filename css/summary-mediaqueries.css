@@ -1,0 +1,41 @@
+@media (max-width: 768px) {
+
+.information-bar
+{
+    height: 27rem;
+    width: 19rem;
+}
+
+.squirtle-summary-img
+{
+    height: auto;
+    width:15rem;
+}
+
+.info-name
+{
+    gap: 0.5rem;
+}
+
+.male-ratio
+{
+    width:5rem;
+}
+
+.female-ratio
+{
+    width:2rem;
+}
+
+}
+
+@media (max-width: 425px) {
+
+    .summary-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+}

@@ -1,0 +1,11 @@
+.quick-summary
+{
+  margin: 1rem 1rem 2rem 1rem;
+  height: auto;
+  width: auto;
+}
+
+.quick-summary > p
+{
+  font-size: 1rem;
+}

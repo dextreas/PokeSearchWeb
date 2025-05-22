@@ -1,0 +1,52 @@
+/*Navbar*/
+header
+{
+  background-color: rgba(75, 205, 235, 0.5);
+  height: 4.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu-img
+{
+  width: 2rem;
+  display: none;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.link {
+  display: inline;
+  list-style: none;
+  padding-right: 1.5rem;
+}
+
+.link > a:hover{
+  color:aliceblue;
+
+}
+
+/* for implementing hover over all the link space - has some kinks*/
+/* .link > a
+{
+  width: 3rem;
+  height: 4rem;
+  text-decoration: none;
+  padding: 2rem 2rem;
+  overflow: hidden;
+  transition: background-color 0.3s ease; /* Smooth transition for background color
+} */
+
+.logo {
+  width: 7rem;
+  margin-left: 2rem;
+}

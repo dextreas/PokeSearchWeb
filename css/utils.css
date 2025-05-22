@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    line-height: calc(1em * 0.5rem);
+}
+
+button{
+    display: inline-block;
+    padding: 0;
+    border: none;
+    background:none;
+    cursor: pointer;
+}
+
+body{
+    background-color: rgba(104, 198, 241, 0.397);
+    padding-bottom: 1rem;
+}
